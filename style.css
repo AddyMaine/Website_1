@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+body{
+     background-image: url(image/Lemon.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.nav-leader h3{
+     font-family: 'Manufacturing Consent', sans-serif;
+     text-transform: uppercase;
+     color: #333;
+     margin-bottom: 10px;
+}
+.nav ul li {
+     list-style: none;
+     display:inline-block;
+     text-decoration: none;
+     padding: 0;
+     margin: 0 20px;
+     position:relative;
+}
+.nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(255, 255, 255, 0.8);
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul li a {
+     text-decoration: none;
+     flex:1;
+     color:#009688;
+     text-transform: uppercase;
+     font-weight: bold;
+}
